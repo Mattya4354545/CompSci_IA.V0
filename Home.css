@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  background-size: cover; /* 画像を全体に広げる */
+  background-position: center;
+  display: flex; /* Use flexbox to align items */
+  align-items: top; /* Center items vertically */
+  padding: 10px 20px; /* Add padding for spacing */
+  height: 50px;
+}
+
+.topnav .logo {
+  height: 100%; /* Adjust the height of the logo */
+  margin-right: 20px; /* Space between logo and links */
+}
+
+.topnav a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0 20px;
+}
+/*VIDEO*/
+
+.videowrapper{  
+    position: relative;
+    overflow: hidden;
+} 
+
+.fullScreenDiv{
+    min-height: 100%; 
+    height: 100vh;
+    width: 100vw;
+    padding:0;
+    margin: 0;
+    background-color: gray;
+    position: relative;
+}
+
+.video{    
+    width: 100vw; 
+    height: auto;
+    margin: auto;
+    display: block;
+    z-index: 0;
+}
+@media (min-aspect-ratio: 16/9) {
+  #video{
+    width: 100vw; 
+    height:auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  #video {
+    height: 100vh; 
+    width:auto;
+    margin-left: 50vw;
+    transform: translate(-50%);
+  }
+}
+
+#videoMessage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2em;
+  text-shadow: 2px 2px 5px black;
+  z-index: 1;
+  pointer-events: none; 
+}
+
+/*SOME STUFF*/
+
+h1 {
+  margin-top: 10px;
+}
+#HomeText {
+  color: black;
+  font-size: 3em;
+}
+#HomeText2 {
+  color: black;
+  font-size: 2em;
+}
+#HomeText2 {
+  color: black;
+  font-size: 1em;
+}
+
+
+
+.center_text {
+  display: flex;
+  justify-content: center; /* 横方向の中央 */
+  align-items: center; /* 縦方向の中央 */
+  font-size: 36px;
+}
+
+.center_textaboutus {
+  display: flex;
+  justify-content: center; /* 横方向の中央 */
+  align-items: center; /* 縦方向の中央 */
+  font-size: 24px;
+  margin: 50px 0 0 0; /*UP、RIGHT、DOWN、LEFT*/
+}
+
+.Undercover{
+  width:100%;
+  height:600px;
+  background-color: white;
+}
+
+/*SlideShowHome*/
+.slideshow-container{
+  width: 60%;
+  height: 700px;
+  margin: 0 auto;
+}
+/*Infos*/
+.infocontains{
+  width: 100%;
+  height: 500px;
+  background-color: #525252;
+}
+.GradationBlock{
+  width:100%;
+  height:50px;
+  background-colour:#525252;
+}
+.Block1{
+  width: 50%;
+  height: 290px;
+  background-color: #7d7d7d;
+  float:left;
+  margin: 0 0 0 0; /*UP、RIGHT、DOWN、LEFT*/
+}
+.Block2{
+  width: 50%;
+  height: 290px;
+  background-color: #7d7d7d;
+  float:left;
+}
+
+Testrun.css
+Displaying Testrun.html.

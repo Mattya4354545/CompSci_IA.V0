@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="Home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="topnav">
+  <a href="Home.html"><img src="logo.png" alt="Logo" class="logo"></a>
+  <a class="active" href="Destination.html">Destination</a>
+  <a href="Activity.html">Activity</a>
+  <a href="Hotel.html">Hotel</a>
+  <a href="Restraunt.html">Restraunt</a>
+</div>
+<div id="videowrapper">
+    <div id="fullScreenDiv">
+      <video autoplay muted loop playsinline id="video" width="100%" height="auto">
+            <source src="video.mp4" type="video/mp4">
+        </video> 
+      <div id="videoMessage">
+        <h1>Visiting Japan</h1>
+      </div> 
+    </div>
+
+<div class="Homecontain">
+  <h2 id="HomeText" class="center_text" style="font-family:Tahoma"> Why Do We Go Japan? </h2>
+  <p id="HomeText2" class="center_text" style="font-family:Tahoma"><u>aaaaaaaaaaaaaaa</u></p>
+    <p id="HomeText2" class="center_text" style="font-family:Tahoma"><u>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</u></p>
+      <p id="HomeText2" class="center_text" style="font-family:Tahoma"><u>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</u></p>
+        <p id="HomeText2" class="center_text" style="font-family:Tahoma"><u>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</u></p>
+</div>
+<div class="Undercover">
+  <h2 id="HomeText" class="center_text" style="font-family:Tahoma"><u> Events </u></h2>
+  <div class="slideshow-container">
+      <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="Ad1.jpg" style="width:100%"height="400px">
+
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="Ad2.jpg" style="width:100%"height="400px">
+
+      </div>
+
+      <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+        <img src="Ad3.jpg" style="width:100%"height="400px">
+
+      </div>
+      <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+        <img src="Ad4.jpg" style="width:100%" height="400px">
+      </div>
+  <h2 id="HomeText2" class="center_text" style="font-family:Tahoma"><u>Description</u></h2>
+  <p id="HomeText3" class="center_text" style="font-family:Tahoma"><u>aaaaaaaaaaaaaaa</u></p>
+  
+  <br>
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 1500); // Change image every 2 seconds
+}
+</script>
+<div class="infocontains">
+  <div class="GradationBlock">
+    <p class="center_text">Gradation Block</p>
+  </div>
+  <div class="Block1">
+    <p class="center_textaboutus"><u>Catthebestguidance@gmail.com 𝕏 <i class="fa fa-instagram" style="font-size:36px"></i></u></p>
+    <p class="center_textaboutus"><u>Some Kind of country #321-2934</u></p>
+    <p class="center_textaboutus"><u>65+ 9876 5432</u></p>
+  </div>
+  <div class="Block2">
+    <p class="center_textaboutus"><u>Who we are, Contact Us,</u></p>
+    <p class="center_textaboutus"><u>Who we are, Contact Us,</u></p>
+    <p class="center_textaboutus"><u>Who we are, Contact Us,</u></p>
+  </div>
+</div>
+
+
+</body>
+</html>
