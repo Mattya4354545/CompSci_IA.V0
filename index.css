@@ -4,3 +4,28 @@ body {
   flex-direction: column;
   background-color: #fafafa;
 }
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  background-size: cover; 
+  background-position: center;
+  display: flex;
+  align-items: top;
+  padding: 10px 20px; 
+  height: 50px;
+}
+
+.topnav .logo {
+  height: 100%;
+  margin-right: 20px; 
+}
+
+.topnav a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0 20px;
+}
