@@ -6,13 +6,13 @@ body {
 }
 .topnav {
   overflow: hidden;
-  background-color: black;
+  background-color: rgb(233, 148, 11);
   background-size: cover; 
   background-position: center;
   display: flex;
   align-items: top;
   padding: 10px 20px; 
-  height: 50px;
+  height: 10%;
 }
 
 .topnav .logo {
@@ -28,4 +28,59 @@ body {
   font-size: 17px;
   font-weight: bold;
   margin: 0 20px;
+}
+
+.Box_Box{
+  width:15%;
+  height:871px;
+  background-color:#525252;
+}
+
+.Box_0 {
+  width:100%;
+  height:12.5%;
+  background-color:#ff9932;
+
+}
+.Box_1 {
+  width:100%;
+  height:12.5%;
+  background-color:#ff5e00;
+
+}
+.Box_2 {
+  width:100%;
+  height:12.5%;
+  background-color:#ff9932;
+
+}
+.Box_3 {
+  width:100%;
+  height:12.5%;
+  background-color:#ff5e00;
+
+}
+.Box_4 {
+  width:100%;
+  height:12.5%;
+  background-color:#ff9932;
+
+}
+.Box_5 {
+  width:100%;
+  height:12.5%;
+  background-color:#ff5e00;
+
+}
+.Box_6 {
+  width:100%;
+  height:12.5%;
+  background-color:#ff9932;
+
+}
+.Box_7 {
+  width:100%;
+  height:12.5%;
+  background-color:#ff5e00;
+
 }
